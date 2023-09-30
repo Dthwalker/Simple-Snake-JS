@@ -1,0 +1,30 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: rgb(240,240,240);
+    overflow: hidden;
+}
+body {
+    display: grid;
+    place-content: center;
+}
+
+.main {
+    border: 1px solid rgb(50,50,50);
+    padding: 30px;
+}
+
+#cnv {
+    border: 2px solid rgb(50,50,50);
+}
+
+.end {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(240,240,240);
+    border: 2px solid rgb(50,50,50);
+    padding: 40px;
+}
