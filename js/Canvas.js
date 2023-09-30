@@ -15,7 +15,7 @@ export default class Canvas {
 
     drawLines() {
         // rgba(50,50,50,1);
-        this.ctx.fillStyle = `rgba(50,50,50,1)`;
+        this.ctx.fillStyle = `rgba(50,50,50,0.5)`;
         for(let y = 0; y < this.h; y+=this.cellSize) {
             this.ctx.fillRect(0, y, this.w, 1);
             for (let x = 0; x < this.w; x += this.cellSize) {

@@ -10,7 +10,7 @@ export default class Cell {
     draw(ctx) {
         let [normalX, normalY] = [this.x * this.size, this.y * this.size];
         ctx.fillStyle = this.color;
-        ctx.fillRect(normalX,normalY, this.size, this.size);
+        ctx.fillRect(normalX+3,normalY+3, this.size-6, this.size-6);
     }
 
 }
